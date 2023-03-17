@@ -1,0 +1,178 @@
+{
+	"id": "9fe93874-a77e-47b7-994c-844b818c573a",
+	"name": "home Work",
+	"timestamp": "2023-03-07T04:11:44.501Z",
+	"collection_id": "26158134-2f995187-c41e-4ed7-8266-ba32cf5089f2",
+	"folder_id": 0,
+	"environment_id": "26158134-2ae8659c-e1c8-4380-8bce-d4aec23b07cd",
+	"totalPass": 12,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-03-07T04:11:42.847Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "dbb09627-50f7-4a9d-830f-0b99f7cf4d98",
+			"name": "Post",
+			"url": "http://216.10.245.166/Library/Addbook.php",
+			"time": 69,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				124,
+				63,
+				69
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "e9cea596-70c3-46c1-88ef-6c3e87e0204b",
+			"name": "GET",
+			"url": "http://216.10.245.166/Library/GetBook.php?AuthorName=joel",
+			"time": 107,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				132,
+				106,
+				107
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "273c7e74-772a-456c-9d63-93c512a32fa4",
+			"name": "GET-BY-ID",
+			"url": "http://216.10.245.166/Library/GetBook.php?ID=sadfad14",
+			"time": 63,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				70,
+				60,
+				63
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "a27dd0d7-df5d-47b6-b85c-205a9e8af587",
+			"name": "Delete",
+			"url": "http://216.10.245.166/Library/DeleteBook.php",
+			"time": 64,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				62,
+				62,
+				64
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				},
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 3,
+	"totalTime": 982,
+	"collection": {
+		"requests": [
+			{
+				"id": "dbb09627-50f7-4a9d-830f-0b99f7cf4d98",
+				"method": "POST"
+			},
+			{
+				"id": "e9cea596-70c3-46c1-88ef-6c3e87e0204b",
+				"method": "GET"
+			},
+			{
+				"id": "273c7e74-772a-456c-9d63-93c512a32fa4",
+				"method": "GET"
+			},
+			{
+				"id": "a27dd0d7-df5d-47b6-b85c-205a9e8af587",
+				"method": "DELETE"
+			}
+		]
+	}
+}
