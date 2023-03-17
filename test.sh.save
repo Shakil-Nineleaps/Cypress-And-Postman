@@ -1,6 +1,0 @@
-#! usr/bin/bash
-
-a=12
-b=12
-echo "a"
-echo "b"
